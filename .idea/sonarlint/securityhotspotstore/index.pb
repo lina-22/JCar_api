@@ -19,3 +19,5 @@ iAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/serv
 aAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/Signuprequest.java,7\1\71ea852c7da16d75fc09206fdd0e6728611918ee
 ™
 iAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/controller/AuthController.java,0\0\00824779dd9f52975422c7a97620f73e5cce04b7
+ž
+nAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/configaration/SimpleCorsFilter.java,0\0\006f35cbb8d0fb978983e5b67751e1f53fb1cf47
