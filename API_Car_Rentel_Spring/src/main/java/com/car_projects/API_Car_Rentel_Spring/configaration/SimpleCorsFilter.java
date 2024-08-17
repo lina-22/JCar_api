@@ -19,14 +19,16 @@ public class SimpleCorsFilter implements Filter {
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException{
         HttpServletResponse response = (HttpServletResponse) res;
-        HttpServletRequest request = (HttpServletRequest) res;
+        HttpServletRequest request = (HttpServletRequest) req;
         Map<String, String> map = new HashMap<>();
 
         String originHeader = request.getHeader("origin");
         response.setHeader("Access-Control-Allow-Origin", originHeader);
         response.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT, OPTIONS,DELETE");
         response.setHeader("Access-Control-Max-Age", "3600");
-        response.setHeader("Access-Control-Allow-Headers", "*");
+//        response.setHeader("Access-Control-Allow-Headers", "*");
+        response.setHeader("Access-Control-Allow-Headers", "authorization, content-type, xsrf-token");
+        response.addHeader("Access-Control-Expose-Headers", "xsrf-token");
 
         if("OPTIONS".equalsIgnoreCase(request.getMethod())){
             response.setStatus(HttpServletResponse.SC_OK);
@@ -37,8 +39,13 @@ public class SimpleCorsFilter implements Filter {
     }
 
     @Override
-    public void init(FilterConfig filterConfig){
+    public void init(FilterConfig filterConfig) {
+        // Initialization code if needed
+    }
 
+    @Override
+    public void destroy() {
+        // Cleanup code if needed
     }
 
 }
