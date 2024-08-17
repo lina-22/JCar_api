@@ -1,0 +1,8 @@
+
+š
+java:S1598"÷This file "JwtUtil.java" should be located in "io\javabrains\springsecurityjwt\util" directory, not in "D:\Workload\2024\projects\Car_projects\API_Car_Rentel_Spring\API_Car_Rentel_Spring\src\main\java\com\car_projects\API_Car_Rentel_Spring\utils".(ÓÊ¬óøÿÿÿÿ8¬ŠÛ‹–2
+v	java:S116"URename this field "SECRET_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‡˜¾ùÿÿÿÿ8±ŠÛ‹–2
+P
+java:S1068".Remove this unused "SECRET_KEY" private field.(ÿ‡˜¾ùÿÿÿÿ8ºŠÛ‹–2
+V
+java:S11442"9Remove this unused private "generateRefreshToken" method.(Âúã“8ºŠÛ‹–2
