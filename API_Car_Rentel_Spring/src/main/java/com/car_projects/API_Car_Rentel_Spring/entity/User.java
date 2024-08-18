@@ -30,7 +30,13 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return null;
+        return email;
+    }
+
+
+    @Override
+    public String getPassword() {
+        return password; // Return the hashed password
     }
 
     @Override
