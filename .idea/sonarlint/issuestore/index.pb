@@ -31,3 +31,11 @@ hAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/serv
 lAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/services/jwt/UserServiceImpl.java,e\0\e03a589bb4f082b06794f1b46684676e5c31e192
 §
 wAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/configaration/JwtAuthentificationFilter.java,8\5\85a043086ad2bf13dd2cafd0e556f3e423a16081
+¦
+vAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/configaration/WebSecurityConfigaration.java,c\6\c6f45722f6a39b3078dde7b5800c6645c3667345
+¦
+vAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/configaration/WebSecurityConfiguration.java,9\4\94bff59970cf7c166a62d205c147eaf47f74ee3f
+š
+jAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/AuthenticationResponse.java,7\a\7accf33ff1482318c71a1cf5846bda244b7a9815
+™
+iAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/AuthenticationRequest.java,b\5\b50d4b58e2d2dfb337a9a4c504ed8313a3809e5c
