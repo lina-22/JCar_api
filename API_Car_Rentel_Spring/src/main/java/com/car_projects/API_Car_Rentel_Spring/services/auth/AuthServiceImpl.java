@@ -5,14 +5,35 @@ import com.car_projects.API_Car_Rentel_Spring.dto.UserDto;
 import com.car_projects.API_Car_Rentel_Spring.entity.User;
 import com.car_projects.API_Car_Rentel_Spring.enums.UserRole;
 import com.car_projects.API_Car_Rentel_Spring.repository.UserRepository;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class AuthServiceImpl implements AuthService{
+@Transactional
+public class AuthServiceImpl implements AuthService, CommandLineRunner {
     private final UserRepository userRepository;
+    private final BCryptPasswordEncoder passwordEncoder; // Inject password encoder
+    @Override
+    public void run(String... args) throws Exception {
+        createAdminAccount();  // This will be executed after the application starts
+    }
+
+    public void createAdminAccount(){
+        User adminAccount = userRepository.findByUserRole(UserRole.ADMIN);
+        if(adminAccount == null){
+            User newAdminAccount = new User();
+            newAdminAccount.setName("ADMIN");
+            newAdminAccount.setEmail("admin@test.com");
+            newAdminAccount.setPassword(passwordEncoder.encode("admin"));  // Use the injected password encoder
+            newAdminAccount.setUserRole(UserRole.ADMIN);
+            userRepository.save(newAdminAccount);
+            System.out.println("Admin account created successfulley");
+        }
+    }
     @Override
     public UserDto createCustomer(Signuprequest signuprequest) {
 
