@@ -37,3 +37,15 @@ vAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/conf
 jAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/AuthenticationResponse.java,7\a\7accf33ff1482318c71a1cf5846bda244b7a9815
 ™
 iAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/AuthenticationRequest.java,b\5\b50d4b58e2d2dfb337a9a4c504ed8313a3809e5c
+Š
+ZAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/entity/Car.java,f\d\fd1abaad3f75fa6b6851a6f3cd28db24908e2af2
+Š
+ZAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/dto/CarDto.java,6\0\60804d1d529d19aedff51cc64eee88d60b348ae4
+Ÿ
+oAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/services/admin/AdminServiceImpl.java,8\0\805ae52e62660731795296c3e1ef2a9490487142
+›
+kAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/services/admin/AdminService.java,e\4\e461b68082db677f450d629f51869088422b51f0
+˜
+hAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/repository/CarRepository.java,0\4\0456cb61513b6ba33da6535e1049dc33f2ea282e
+š
+jAPI_Car_Rentel_Spring/src/main/java/com/car_projects/API_Car_Rentel_Spring/controller/AdminController.java,7\e\7e809be61a18a9af472479c1c07d5c6383b09a60
