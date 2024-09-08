@@ -1,4 +1,8 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬¤Õè8·¯í›2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬¤Õè8¢Ë¹˜2
 H
-java:S1452"&Remove usage of generic wildcard type.(º·õ·ÿÿÿÿÿ8¼¯í›2
+java:S1452"&Remove usage of generic wildcard type.(ç€Êòÿÿÿÿÿ8®Ë¹˜2
+L	java:S106"+Replace this use of System.out by a logger.(…¤ÈÌıÿÿÿÿ8¯Ë¹˜2
+{
+java:S1128
+"YRemove this unused import 'org.springframework.web.bind.MethodArgumentNotValidException'.(Ñîœ¥ÿÿÿÿÿ8°Ë¹˜2
